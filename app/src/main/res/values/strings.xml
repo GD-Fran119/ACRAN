@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ACRAN</string>
+    <string name="registro_file">ultimo_registro</string>
+
+    <string name="IP_server">http://185.166.215.97:3000</string>
+    <string name="rutaGrados">/grados</string>
+    <string name="rutaAulas">/aulas/</string>
+    <string name="rutaAsignaturas">/asignaturas</string>
+    <string name="rutaAsistencia">/asistencia/</string>
+    <string name="rutaAsignaturaReservas">/aulas/asignaturas/</string>
+    <string name="errorcode_URL">1000</string>
+    <string name="errormessage_URL">No se ha conseguido la URL</string>
+
+    <string name="preferenciasUltimoRegistro">preferenciasUltimoRegistro</string>
+    <string name="preferenciasNFC">preferenciasNFC</string>
+    <string name="ultimoRegistro">ultimoRegistro</string>
+    <string name="supportsNFC">supportsNFC</string>
+    <string name="textoNFCEasterEgg">Esta se suponía que iba a ser la vista para conseguir el contenido del Tag NFC. Lamentablemente no pudimos implementarlo.</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

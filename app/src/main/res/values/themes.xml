@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ISM" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/UCO_rojo</item>
+        <item name="colorPrimaryDark">@color/UCO_rojo</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <!--item name="colorPrimaryVariant">@color/purple_700</item>-->
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <!--<item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="colorAccent">@color/UCO_rojo</item>
+        <item name="android:shadowColor">#ECECEC</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="Theme.ISM">
+        <item name="android:windowBackground">@drawable/splash_screen_light</item>
+    </style>
+
+</resources>

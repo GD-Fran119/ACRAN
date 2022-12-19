@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/button"
+        android:onClick="ok"
+        android:text="Consultar por aula"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="48dp"
+        android:onClick="goToAsignatura"
+        android:text="consultar por asignatura"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/buscarAsignaturaButton"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="48dp"
+        android:onClick="goToAsistencia"
+        android:text="Registrar asistencia"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:padding="10sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/NFCStatusMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NFC"
+        android:padding="10sp"
+        android:gravity="center"
+        android:onClick="goToNFC"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_uco" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

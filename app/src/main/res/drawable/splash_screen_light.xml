@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white"/>
+    <item android:gravity="center" android:height="100sp"
+        android:width="100sp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/UCO_rojo"/>
+            <corners android:radius="20sp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/app_icon_no_bg" android:gravity="center"
+        android:height="75sp" android:width="75sp"/>
+</layer-list>
